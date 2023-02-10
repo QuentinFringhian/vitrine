@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import ContactSection from '../lib/contactSection/ContactSection.svelte';
+	import MainSection from '../lib/mainSection/MainSection.svelte';
+	import QuoteSection from '../lib/quoteSection/QuoteSection.svelte';
+	import TeamSection from '../lib/teamSection/TeamSection.svelte';
+	import TimelineSection from '../lib/timeLineSection/TimelineSection.svelte';
+</script>
+
+<QuoteSection />
+<MainSection />
+<TeamSection />
+<TimelineSection />
+<ContactSection />
