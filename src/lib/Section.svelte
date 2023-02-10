@@ -5,6 +5,8 @@
 
 <div class="bg-{bg} text-{darkText ? 'dark' : 'light'} p-16">
 	<center>
-		<slot />
+		<div class="max-w-screen-xl">
+			<slot />
+		</div>
 	</center>
 </div>
