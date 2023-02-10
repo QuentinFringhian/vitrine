@@ -5,7 +5,7 @@
 
 <Section bg="dark">
 	<div class="flex flex-row justify-around items-center gap-16">
-		<div class="max-w-lg">
+		<div class="max-w-md">
 			<Lottie path="./networkAnimation.json" name="network animation" />
 		</div>
 		<figure class="max-w-lg">
